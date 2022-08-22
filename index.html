@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Undangan</title>
+</head>
+
+<body>
+    <!-- NAVIGASI BAR -->
+    <nav class="navbar">
+        <div class="navbar_wrapper">
+            <h1 class="brand">Latif Ariyadi & Dewi Rahmi</h1>
+        </div>
+    </nav>
+    <!-- END NAVIGASI BAR -->
+
+    <main class="container">
+        <!-- HERO -->
+        <div class="hero">
+            <p>Pernikahan</p>
+            <h1>Latif & Dewi</h1>
+            <p>Pekalongan, 9 November 2021</p>
+            <button onclick="isiBukuTamu()">Isi Buku Tamu</button>
+        </div>
+        <!-- END HERO -->
+
+        <section>
+            <h1>Daftar Tamu</h1>
+            <table class="daftar_tamu_table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Lengkap</th>
+                        <th>Alamat</th>
+                        <th style="text-align: center">Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
